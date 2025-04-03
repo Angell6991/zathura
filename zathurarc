@@ -12,7 +12,7 @@ set scroll-step 100
 
 #zoom settings
 set zoom-min 10
-set guioptions ""
+# set guioptions ""
 
 # zathurarc-dark
 
@@ -20,6 +20,7 @@ set font "inconsolata 15"
 set default-bg "#0F0F0F" #00
 set default-fg "#F7F7F6" #01
 
+set statusbar "true"
 set statusbar-fg "#B0B0B0" #04
 set statusbar-bg "#202020" #01
 
@@ -50,10 +51,10 @@ set recolor-darkcolor "#FFFFFF" #06
 #set recolor-reverse-video "true"
 set recolor-keephue "true"
 
-
 set render-loading "false"
 set scroll-step 50
+set selection-clipboard "clipboard"
+
 unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
-set selection-clipboard clipboard
